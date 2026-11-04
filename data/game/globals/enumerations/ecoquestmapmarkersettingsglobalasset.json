@@ -1,0 +1,3593 @@
+{
+ "fichier": "617dec46-c2aa-40cd-bdb4-1bfb3218e357",
+ "imports": [
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "0c8f6905-430f-4eb4-9dc5-001d6c95abde"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2191fd5c-1cc9-4beb-9e14-c7b908b1dc5b"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "6ce81aa1-36d2-417d-a921-c7acc499aa5e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "faebddac-49ff-454d-9f70-00d7ef1d8918"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "4021897e-67ed-4f9d-8390-8d93640c2427"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "f3710438-43e3-4cb6-bb12-21807b49e9d4"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "8acfdfba-dee7-4abd-bd2e-bd300bf96299"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "10cbcf87-abd0-4f26-852f-51cff494aaf0"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2cee894d-aa1d-435f-9da9-fcfe902b7957"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "9083af97-584f-46fd-9a70-c5e9b46ff1d1"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "6b76c886-42f4-4f20-9d9e-deec0f875d79"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "fac3e4a2-0a8d-4bd0-ab28-8ee3c09e1360"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "9b410840-14a3-4a0e-ad97-a1916e07426a"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "e048e1b5-b347-4dd8-9a72-4eb2d2938d3d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "0dc5541b-b0e1-42ba-9662-9a66c08229ab"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "19d196f8-c946-4467-ae9a-1bbdc4885c38"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c2f90c00-72b6-4617-8b15-f5a9f9e414d1"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "85458603-aea8-4174-aaee-94e0b7ac807e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "3ae7e1db-82a4-4abd-a7b2-a5bd09fd6b42"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "d6174bd2-7b1e-4114-b0eb-1772816b38c8"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "090c705b-5acb-44dd-a885-c871991b558e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c79b85cd-70d9-4f35-85d0-34dbb9c7afb4"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "7a4bf1e0-4809-436b-b055-8842e058b741"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "5db62769-7090-435e-b548-ed97df861be2"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "a6b4873a-6802-4f59-aae0-ceca7cc203e5"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "0c2e81de-62a3-455f-a356-f3e0ded117d2"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2d089e1e-7ade-4426-95ad-570d5432933f"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "7339d43f-13d4-4e79-9d86-d470d67b3b3d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "313d0112-74c6-482d-9059-ba67e4695f76"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c8109288-cc3a-4b95-ae41-ea7755eec707"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "e7e95d4c-9080-4559-a547-47568cc14270"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "7a0dc00b-3e0c-4a13-889d-fef7b97325aa"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "1205beed-f50c-4c41-87ec-bb9464e1c02c"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "d3b22542-070b-4cc3-9c88-f9a690a0c75e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "68ff6a3f-7bfa-4c62-9f36-1ce1ff1ab101"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "849e7ff4-0c08-472f-9973-217fc2e4716c"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "355592c8-5fe4-4970-a283-7e73efc7c607"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "1a8aae31-3543-4a5e-a76f-6e96c2ff58ee"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c99b830e-d315-46c0-8f1a-9d317ff9876f"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "e732f53f-fd09-4cc3-99be-0c1d0cc7719e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2eb53bc6-6c33-47d0-b428-3db982163880"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "d1ef4809-9821-4354-8b24-9969f9edacf7"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "578a20b5-a15c-4323-8201-46b4ac131ef3"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "5c83ca15-a45e-4413-9891-b017ad552189"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2a9b3f87-fe1c-4ecc-9a8f-878d9131f482"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c7259367-0e6a-497a-a402-505245aeb086"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "106d8034-4180-4722-8a98-6a1019ba7665"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2e051bad-bc2a-412a-a62d-3baf0a02b152"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c8fe3f3d-2a1a-46c6-bb8c-66fa1d858849"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "7d580693-0c59-42c0-b0fb-cd70a6ee5f53"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "7a209668-254d-446b-9965-5840f2a571f0"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "392358c2-228a-46b3-bcdc-45addaf096de"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "0cf9c8bd-89a4-46d7-88f2-d964329938b0"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "6d91e377-8060-40c6-a8ca-c64107bce6bb"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2973ecd1-1f6b-4c8f-aa4a-5bbeb38754ce"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "17567e23-63f8-437a-9b55-33774fd9cb88"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "1ffcdb47-6ae0-4b84-8495-517b893bddde"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "83613566-e27f-46be-b85e-1dfbc60790df"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "19f6f995-6b50-4ae2-8aba-fe82ed7472db"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "08232c31-c24b-4d32-b43d-6f86ecb02b78"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "b461f5a5-5724-4a08-a1b2-d4aabea992ed"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2f812d4e-41f6-4fe6-ad07-b0b32106c014"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "5f8eeb7f-3cfd-402d-925e-c6ce748ed788"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c44123dc-4460-41f7-9bb2-8946539bbe27"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "bce2b32b-88cb-45a5-85ba-abc75473811b"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "446a7933-cec1-4dfb-978e-1ea3d3ec4b77"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "d7eaf1d0-0c01-40e0-95ab-8c7eb718657a"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "88f334f0-8c02-4c65-9489-5def69c10a0e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "05e5f606-401b-4598-b08d-a72d9be115ac"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "584b5f6d-196a-48e3-b230-c674b741c137"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "eef1e1f2-2dc0-433d-a553-52a89fafd376"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "dd5991c0-76a9-4c9c-aeea-462f592ab87d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "1df10ce0-71a6-4a34-86db-95ba98fdde75"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "56401ee4-ce03-44c6-bdba-e852a54e4e50"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c8089e26-b6bd-460c-86f1-e697091d4b8c"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "a0a7ad39-65e0-4c25-a980-bd020952776c"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "dc8d65aa-a7e2-42a3-b4de-e40c32d828e7"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "07ab6afd-0378-44b8-a1ba-cf046692f239"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "246b66b9-9c39-46bd-994d-df25e6c85615"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "83fe9ab7-43be-4ed1-ab52-c9668e072e6d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "9258eb14-6a8a-44b0-8038-b7064f37e65e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "02a4c300-f44e-47ac-9f9e-7ec28a05efea"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "69977d64-72ff-4a1b-bfda-fdc738d4d965"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "3d1817bc-101c-442c-9f73-86d79aa48e62"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "edb7b13c-6a3b-4cad-8c50-b4ae5035e50c"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "8ffc9083-b412-428a-a659-846b4bdd4c5e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "5e528e9c-2b8c-4bf3-a02a-c30e1e6cbbc4"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "725fefee-feb8-4246-8492-15def291a33b"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "dca3751e-e0e3-4ad0-acee-a961b21e341d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "a0b8f64c-ea70-48f3-977c-9b3e38e16197"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "2376580e-e2a3-400a-ad2b-aabd3d54f44e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "df6ad860-02c2-42f8-9ef3-542118d80d3d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "7526fae2-46ee-4104-8f8d-0621cfb96d53"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "577da505-503d-47fa-be65-32c76eddb1ab"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "84c853f3-2f51-4f6a-a80e-8f1469acbbae"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "c7c9860e-d31d-4243-8398-8fc5e87c8299"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "69a6f5fe-7545-4ba8-b5eb-035f86a9ff76"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "1e93e191-ba97-44bf-93ac-503b6ca2a51f"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "87e54148-9c2c-42a0-93b1-170aa884b3ae"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "64f5f651-9200-4ad8-9caa-335d557f0791"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "8b276b9e-46aa-4dcb-a708-94ff0e6a2546"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "fcee1d9d-9b30-42ef-9ecf-e2368ebafad4"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "8322ec69-2b43-4502-95d3-bfe9de98ca70"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "bece4245-411b-462a-a146-f33610ecafa7"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "24fe897a-65aa-441e-bcde-70e946a8d82b"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "d552deb8-f43b-4c02-b6fb-11d118af662d"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "f848c055-e59f-4407-8179-f419a6b6d5f0"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "48284323-44f0-4a23-a335-7a2a38c871ac"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "9191c598-8d71-471c-80dc-0e4555d169fb"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "163a0108-8a15-4217-87e0-e234ef2856f9"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "ea635ddf-541c-488d-af3c-0d7250afac5b"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "66a2ecc5-9167-46dd-a881-7a2fffa32aa4"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "b2e7625d-4f6b-4135-9343-2d963febd371"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "ee80cc16-980b-4a7c-a5de-bfee7e0b7855"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "60510dde-46e8-4c8e-a7ed-e53a330bab13"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "d9d4ea01-15c9-45e0-a203-80ce708d0b5b"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "f2f272d3-1928-4cbc-b245-c23703eee2ef"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "68d70035-3176-4f93-8e4b-4880b64c9688"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "5e11f441-b704-4cfc-8678-544a3dbd4590"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "50db58b0-47aa-466f-93ea-de4bdc9c4e4e"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "9a430452-5c9c-4189-b9bf-49f697cea4c2"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "ea32c34b-77d0-4aea-aad6-5c2e8a697e37"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "fc2cfce1-db2a-45dc-9e8c-69ba454528b2"
+  ],
+  [
+   "92af30be-6a26-404b-bf08-0e18427156ff",
+   "a51178ee-a2ef-4761-90ce-42e70295cd86"
+  ]
+ ],
+ "objets": [
+  {
+   "index": 0,
+   "guid": "ec4f32ac-95de-40cb-94c3-bd8d31bc38c6",
+   "classe": "DylanEcoQuestMapMarkerSettingsGlobalAsset",
+   "champs": {
+    "Name": "globals/Enumerations/EcoQuestMapMarkerSettingsGlobalAsset",
+    "QuestMarkerSettings": [
+     {
+      "instance": 115
+     },
+     {
+      "instance": 154
+     },
+     {
+      "instance": 111
+     },
+     {
+      "instance": 112
+     },
+     {
+      "instance": 140
+     },
+     {
+      "instance": 43
+     },
+     {
+      "instance": 53
+     },
+     {
+      "instance": 52
+     },
+     {
+      "instance": 40
+     },
+     {
+      "instance": 1
+     },
+     {
+      "instance": 51
+     },
+     {
+      "instance": 63
+     },
+     {
+      "instance": 66
+     },
+     {
+      "instance": 104
+     },
+     {
+      "instance": 16
+     },
+     {
+      "instance": 11
+     },
+     {
+      "instance": 67
+     },
+     {
+      "instance": 143
+     },
+     {
+      "instance": 72
+     },
+     {
+      "instance": 23
+     },
+     {
+      "instance": 7
+     },
+     {
+      "instance": 35
+     },
+     {
+      "instance": 75
+     },
+     {
+      "instance": 10
+     },
+     {
+      "instance": 136
+     },
+     {
+      "instance": 138
+     },
+     {
+      "instance": 137
+     },
+     {
+      "instance": 80
+     },
+     {
+      "instance": 141
+     },
+     {
+      "instance": 151
+     },
+     {
+      "instance": 148
+     },
+     {
+      "instance": 45
+     },
+     {
+      "instance": 146
+     },
+     {
+      "instance": 70
+     },
+     {
+      "instance": 54
+     },
+     {
+      "instance": 4
+     },
+     {
+      "instance": 97
+     },
+     {
+      "instance": 86
+     },
+     {
+      "instance": 22
+     },
+     {
+      "instance": 31
+     },
+     {
+      "instance": 90
+     },
+     {
+      "instance": 30
+     },
+     {
+      "instance": 107
+     },
+     {
+      "instance": 123
+     },
+     {
+      "instance": 29
+     },
+     {
+      "instance": 57
+     },
+     {
+      "instance": 55
+     },
+     {
+      "instance": 110
+     },
+     {
+      "instance": 135
+     },
+     {
+      "instance": 76
+     },
+     {
+      "instance": 139
+     },
+     {
+      "instance": 58
+     },
+     {
+      "instance": 50
+     },
+     {
+      "instance": 129
+     },
+     {
+      "instance": 82
+     },
+     {
+      "instance": 32
+     },
+     {
+      "instance": 56
+     },
+     {
+      "instance": 47
+     },
+     {
+      "instance": 14
+     },
+     {
+      "instance": 73
+     },
+     {
+      "instance": 77
+     },
+     {
+      "instance": 102
+     },
+     {
+      "instance": 3
+     },
+     {
+      "instance": 71
+     },
+     {
+      "instance": 131
+     },
+     {
+      "instance": 79
+     },
+     {
+      "instance": 94
+     },
+     {
+      "instance": 26
+     },
+     {
+      "instance": 61
+     },
+     {
+      "instance": 116
+     },
+     {
+      "instance": 150
+     },
+     {
+      "instance": 84
+     },
+     {
+      "instance": 93
+     },
+     {
+      "instance": 130
+     },
+     {
+      "instance": 106
+     },
+     {
+      "instance": 87
+     },
+     {
+      "instance": 60
+     },
+     {
+      "instance": 113
+     },
+     {
+      "instance": 13
+     },
+     {
+      "instance": 62
+     },
+     {
+      "instance": 132
+     },
+     {
+      "instance": 152
+     },
+     {
+      "instance": 122
+     },
+     {
+      "instance": 20
+     },
+     {
+      "instance": 118
+     },
+     {
+      "instance": 119
+     },
+     {
+      "instance": 78
+     },
+     {
+      "instance": 36
+     },
+     {
+      "instance": 42
+     },
+     {
+      "instance": 39
+     },
+     {
+      "instance": 96
+     },
+     {
+      "instance": 8
+     },
+     {
+      "instance": 145
+     },
+     {
+      "instance": 101
+     },
+     {
+      "instance": 127
+     },
+     {
+      "instance": 99
+     },
+     {
+      "instance": 37
+     },
+     {
+      "instance": 18
+     },
+     {
+      "instance": 59
+     },
+     {
+      "instance": 21
+     },
+     {
+      "instance": 109
+     },
+     {
+      "instance": 124
+     },
+     {
+      "instance": 27
+     },
+     {
+      "instance": 34
+     },
+     {
+      "instance": 15
+     },
+     {
+      "instance": 100
+     },
+     {
+      "instance": 149
+     },
+     {
+      "instance": 5
+     },
+     {
+      "instance": 9
+     },
+     {
+      "instance": 19
+     },
+     {
+      "instance": 144
+     },
+     {
+      "instance": 117
+     },
+     {
+      "instance": 121
+     },
+     {
+      "instance": 120
+     },
+     {
+      "instance": 65
+     },
+     {
+      "instance": 68
+     },
+     {
+      "instance": 133
+     },
+     {
+      "instance": 126
+     },
+     {
+      "instance": 44
+     },
+     {
+      "instance": 6
+     },
+     {
+      "instance": 81
+     },
+     {
+      "instance": 114
+     },
+     {
+      "instance": 95
+     },
+     {
+      "instance": 125
+     },
+     {
+      "instance": 64
+     },
+     {
+      "instance": 38
+     },
+     {
+      "instance": 74
+     },
+     {
+      "instance": 89
+     },
+     {
+      "instance": 105
+     },
+     {
+      "instance": 85
+     },
+     {
+      "instance": 91
+     },
+     {
+      "instance": 41
+     },
+     {
+      "instance": 33
+     },
+     {
+      "instance": 46
+     },
+     {
+      "instance": 83
+     },
+     {
+      "instance": 17
+     },
+     {
+      "instance": 92
+     },
+     {
+      "instance": 134
+     },
+     {
+      "instance": 49
+     },
+     {
+      "instance": 48
+     },
+     {
+      "instance": 69
+     },
+     {
+      "instance": 108
+     },
+     {
+      "instance": 24
+     },
+     {
+      "instance": 128
+     },
+     {
+      "instance": 25
+     },
+     {
+      "instance": 88
+     },
+     {
+      "instance": 12
+     },
+     {
+      "instance": 153
+     },
+     {
+      "instance": 2
+     },
+     {
+      "instance": 103
+     },
+     {
+      "instance": 147
+     },
+     {
+      "instance": 142
+     },
+     {
+      "instance": 98
+     },
+     {
+      "instance": 28
+     }
+    ]
+   }
+  },
+  {
+   "index": 1,
+   "guid": "0e136d02-573f-41cf-b5f6-f6ffbbe17195",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "0c8f6905-430f-4eb4-9dc5-001d6c95abde"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_02",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_02"
+    }
+   }
+  },
+  {
+   "index": 2,
+   "guid": "bc92f903-b8b1-4e50-a4ca-932eabf30ec9",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2191fd5c-1cc9-4beb-9e14-c7b908b1dc5b"
+     ]
+    },
+    "TransitionPoint": "Dungeon_004_Int",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_004_Int"
+    }
+   }
+  },
+  {
+   "index": 3,
+   "guid": "b89b0f04-ff3f-42c5-a59f-093ed5c9b760",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "6ce81aa1-36d2-417d-a921-c7acc499aa5e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_26",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_26"
+    }
+   }
+  },
+  {
+   "index": 4,
+   "guid": "11c22108-2a73-4aaa-8bb2-0af745a63079",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "faebddac-49ff-454d-9f70-00d7ef1d8918"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_28",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_28"
+    }
+   }
+  },
+  {
+   "index": 5,
+   "guid": "cec4a10a-4b68-47f9-b495-ba8ac61552e1",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "4021897e-67ed-4f9d-8390-8d93640c2427"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 6,
+   "guid": "ae31ab0a-e8dc-447d-a56e-b988ee2362f6",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "f3710438-43e3-4cb6-bb12-21807b49e9d4"
+     ]
+    },
+    "TransitionPoint": "Dungeon 08",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_008_Int"
+    }
+   }
+  },
+  {
+   "index": 7,
+   "guid": "64e67c0c-78b7-4ea8-9318-1590ae037ff9",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "8acfdfba-dee7-4abd-bd2e-bd300bf96299"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_13",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_13"
+    }
+   }
+  },
+  {
+   "index": 8,
+   "guid": "6bf6c40c-7b3f-479e-bb1d-e81d271c72c3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "10cbcf87-abd0-4f26-852f-51cff494aaf0"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 9,
+   "guid": "957e0312-86a0-4409-a9ab-0b528710bbd3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2cee894d-aa1d-435f-9da9-fcfe902b7957"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_30",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_30"
+    }
+   }
+  },
+  {
+   "index": 10,
+   "guid": "31131912-71c6-471e-a4f6-ba2709161ff3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "9083af97-584f-46fd-9a70-c5e9b46ff1d1"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_16",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_16"
+    }
+   }
+  },
+  {
+   "index": 11,
+   "guid": "43bc3612-ee11-49bd-a93b-35c1c7efa642",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "6b76c886-42f4-4f20-9d9e-deec0f875d79"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 12,
+   "guid": "9d75eb13-30ff-4730-aa66-1c4028c9d37a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "fac3e4a2-0a8d-4bd0-ab28-8ee3c09e1360"
+     ]
+    },
+    "TransitionPoint": "Vul_Sty_020",
+    "TransitionPointName": {
+     "TransitionName": "Safepoint_Arena_01_04_01"
+    }
+   }
+  },
+  {
+   "index": 13,
+   "guid": "cc890c15-c3f0-4295-b967-b899b8ac8585",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "9b410840-14a3-4a0e-ad97-a1916e07426a"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_20",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_20"
+    }
+   }
+  },
+  {
+   "index": 14,
+   "guid": "48d7691e-2e2f-4ffd-805a-527f58d5eb2d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e048e1b5-b347-4dd8-9a72-4eb2d2938d3d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_09",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_09"
+    }
+   }
+  },
+  {
+   "index": 15,
+   "guid": "2eb09f1e-2754-48d7-bf3d-b0bd7bcb5a7a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "0dc5541b-b0e1-42ba-9662-9a66c08229ab"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_17",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_17"
+    }
+   }
+  },
+  {
+   "index": 16,
+   "guid": "fd22ae20-d49a-4837-ae13-402507cb12fd",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "19d196f8-c946-4467-ae9a-1bbdc4885c38"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_07",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_07"
+    }
+   }
+  },
+  {
+   "index": 17,
+   "guid": "e0902721-212f-42dc-b2c9-72c6c8815de7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c2f90c00-72b6-4617-8b15-f5a9f9e414d1"
+     ]
+    },
+    "TransitionPoint": "Ground_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Ground_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 18,
+   "guid": "3e618721-f46d-4f00-8757-34a573e71e16",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "85458603-aea8-4174-aaee-94e0b7ac807e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 19,
+   "guid": "7e772023-0d93-44c8-9101-ff76b545d049",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "3ae7e1db-82a4-4abd-a7b2-a5bd09fd6b42"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 20,
+   "guid": "7f3ffc24-a993-47e7-94bc-67acd07729ba",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "d6174bd2-7b1e-4114-b0eb-1772816b38c8"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_23",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_23"
+    }
+   }
+  },
+  {
+   "index": 21,
+   "guid": "5b675525-591b-4cc9-add3-61cde5b98723",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "090c705b-5acb-44dd-a885-c871991b558e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_24",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_24"
+    }
+   }
+  },
+  {
+   "index": 22,
+   "guid": "ad177927-df44-4913-bd56-bd8ae2487a24",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c79b85cd-70d9-4f35-85d0-34dbb9c7afb4"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 23,
+   "guid": "47b2482d-5eef-49d5-8899-f60b817b5aa7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7a4bf1e0-4809-436b-b055-8842e058b741"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_12",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_12"
+    }
+   }
+  },
+  {
+   "index": 24,
+   "guid": "11285e2d-843d-408b-8383-fd107a9effdd",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "5db62769-7090-435e-b548-ed97df861be2"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_32",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_32"
+    }
+   }
+  },
+  {
+   "index": 25,
+   "guid": "2a44e92d-a156-4334-b16a-87d2faca604e",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "a6b4873a-6802-4f59-aae0-ceca7cc203e5"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_27",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_27"
+    }
+   }
+  },
+  {
+   "index": 26,
+   "guid": "e3febe32-4b28-42c9-b58e-cfddfbd41e6c",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "0c2e81de-62a3-455f-a356-f3e0ded117d2"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_26",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_26"
+    }
+   }
+  },
+  {
+   "index": 27,
+   "guid": "a0a9dc32-192a-4f23-ad02-1cfee63d72b7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2d089e1e-7ade-4426-95ad-570d5432933f"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_14",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_14"
+    }
+   }
+  },
+  {
+   "index": 28,
+   "guid": "0820df32-1dd4-4bf5-b18c-cb81b1d56e2b",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7339d43f-13d4-4e79-9d86-d470d67b3b3d"
+     ]
+    },
+    "TransitionPoint": "Cataclysm_001_SoS",
+    "TransitionPointName": {
+     "TransitionName": "Cataclysm_001_SoS"
+    }
+   }
+  },
+  {
+   "index": 29,
+   "guid": "9b214e35-455a-4aac-9172-865ea26c282a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "313d0112-74c6-482d-9059-ba67e4695f76"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_02",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_02"
+    }
+   }
+  },
+  {
+   "index": 30,
+   "guid": "59018538-09c7-46f1-859a-4a293aecc6a0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c8109288-cc3a-4b95-ae41-ea7755eec707"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_01",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_01"
+    }
+   }
+  },
+  {
+   "index": 31,
+   "guid": "9a48913d-bc20-4013-90f3-d23e5742f70d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e7e95d4c-9080-4559-a547-47568cc14270"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_13",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_13"
+    }
+   }
+  },
+  {
+   "index": 32,
+   "guid": "1e4a8040-e259-4909-aa5e-7963046d2d38",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7a0dc00b-3e0c-4a13-889d-fef7b97325aa"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_13",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_13"
+    }
+   }
+  },
+  {
+   "index": 33,
+   "guid": "c8149140-3dc3-4cf9-afe6-e2bd2eeb06ba",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "0c8f6905-430f-4eb4-9dc5-001d6c95abde"
+     ]
+    },
+    "TransitionPoint": "Ground_Quest_02",
+    "TransitionPointName": {
+     "TransitionName": "Ground_Quest_02"
+    }
+   }
+  },
+  {
+   "index": 34,
+   "guid": "fe209e40-e422-44d4-a93f-5684da72a7eb",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "1205beed-f50c-4c41-87ec-bb9464e1c02c"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_25",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_25"
+    }
+   }
+  },
+  {
+   "index": 35,
+   "guid": "dfb4f841-822a-4a4f-99b0-c1c5846e385f",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "d3b22542-070b-4cc3-9c88-f9a690a0c75e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_14",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_14"
+    }
+   }
+  },
+  {
+   "index": 36,
+   "guid": "93053742-5067-44a1-a927-75d7d9bb61f9",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "68ff6a3f-7bfa-4c62-9f36-1ce1ff1ab101"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_06",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_06"
+    }
+   }
+  },
+  {
+   "index": 37,
+   "guid": "67c2d742-5ec5-4b00-b93b-df2cfefbab01",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "849e7ff4-0c08-472f-9973-217fc2e4716c"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_05",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_05"
+    }
+   }
+  },
+  {
+   "index": 38,
+   "guid": "5b733e43-ff4f-4c93-ac68-cb282c318b5f",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "355592c8-5fe4-4970-a283-7e73efc7c607"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_27",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_27"
+    }
+   }
+  },
+  {
+   "index": 39,
+   "guid": "eb0b4345-f695-4f72-95ef-ed02c5a412f5",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "1a8aae31-3543-4a5e-a76f-6e96c2ff58ee"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_09",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_09"
+    }
+   }
+  },
+  {
+   "index": 40,
+   "guid": "4fc26e45-1e45-4d05-a511-98efc5f0d44f",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c99b830e-d315-46c0-8f1a-9d317ff9876f"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_01",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_01"
+    }
+   }
+  },
+  {
+   "index": 41,
+   "guid": "d1b99b47-3859-4ba1-b864-c1809991a097",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e732f53f-fd09-4cc3-99be-0c1d0cc7719e"
+     ]
+    },
+    "TransitionPoint": "Dungeon_001_Int",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_001_Int"
+    }
+   }
+  },
+  {
+   "index": 42,
+   "guid": "e3aa9548-efaa-4157-bd6b-184462aa7b9d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2eb53bc6-6c33-47d0-b428-3db982163880"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 43,
+   "guid": "1463ab4b-5995-429f-98fc-cc52702261bf",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "d1ef4809-9821-4354-8b24-9969f9edacf7"
+     ]
+    },
+    "TransitionPoint": "Strider_FP_1",
+    "TransitionPointName": {
+     "TransitionName": "Strider_FP_1"
+    }
+   }
+  },
+  {
+   "index": 44,
+   "guid": "b348b74c-cd76-4049-a681-750b2b321442",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "578a20b5-a15c-4323-8201-46b4ac131ef3"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 45,
+   "guid": "537a544d-37df-45df-8343-b0e35245982a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "5c83ca15-a45e-4413-9891-b017ad552189"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_24",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_24"
+    }
+   }
+  },
+  {
+   "index": 46,
+   "guid": "1cf9f64d-ab3f-447b-a992-4585846de3a0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2a9b3f87-fe1c-4ecc-9a8f-878d9131f482"
+     ]
+    },
+    "TransitionPoint": "Ground_Quest_03",
+    "TransitionPointName": {
+     "TransitionName": "Ground_Quest_03"
+    }
+   }
+  },
+  {
+   "index": 47,
+   "guid": "33f29853-d77d-4fb4-98df-8a1bbf45c7b0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c7259367-0e6a-497a-a402-505245aeb086"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_13",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_13"
+    }
+   }
+  },
+  {
+   "index": 48,
+   "guid": "65c2cc54-2984-476f-99e9-8cada59db232",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "106d8034-4180-4722-8a98-6a1019ba7665"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_25",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_25"
+    }
+   }
+  },
+  {
+   "index": 49,
+   "guid": "4ac26e56-d19c-4233-a267-806505156aad",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2e051bad-bc2a-412a-a62d-3baf0a02b152"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 50,
+   "guid": "2a447256-7e07-4cea-abfe-801231bd4269",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c8fe3f3d-2a1a-46c6-bb8c-66fa1d858849"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_10",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_10"
+    }
+   }
+  },
+  {
+   "index": 51,
+   "guid": "442ed757-e84b-48c9-9e95-a7ba14c402c7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7d580693-0c59-42c0-b0fb-cd70a6ee5f53"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_03",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_03"
+    }
+   }
+  },
+  {
+   "index": 52,
+   "guid": "76a12058-c8db-45c6-b89e-d8a66a8a501d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7a209668-254d-446b-9965-5840f2a571f0"
+     ]
+    },
+    "TransitionPoint": "Strider_FP_3",
+    "TransitionPointName": {
+     "TransitionName": "Strider_FP_3"
+    }
+   }
+  },
+  {
+   "index": 53,
+   "guid": "3d63ca59-8cd4-4139-bb25-bb00cdd67124",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "392358c2-228a-46b3-bcdc-45addaf096de"
+     ]
+    },
+    "TransitionPoint": "Strider_FP_2",
+    "TransitionPointName": {
+     "TransitionName": "Strider_FP_2"
+    }
+   }
+  },
+  {
+   "index": 54,
+   "guid": "d648075c-f66d-4cdb-b2b0-c17250181ba3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "0cf9c8bd-89a4-46d7-88f2-d964329938b0"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_27",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_27"
+    }
+   }
+  },
+  {
+   "index": 55,
+   "guid": "6c5cb45e-0727-499a-a3dc-b7dfa454ad93",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "6d91e377-8060-40c6-a8ca-c64107bce6bb"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_02",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_02"
+    }
+   }
+  },
+  {
+   "index": 56,
+   "guid": "af5bf15e-025a-4787-a409-5361d3eb3a59",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2973ecd1-1f6b-4c8f-aa4a-5bbeb38754ce"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_13",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_13"
+    }
+   }
+  },
+  {
+   "index": 57,
+   "guid": "3c0f845f-94e2-401e-b4f1-2baef0d5d928",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "17567e23-63f8-437a-9b55-33774fd9cb88"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 58,
+   "guid": "9e93b660-12b2-46c1-ad01-77b03c046ce7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "1ffcdb47-6ae0-4b84-8495-517b893bddde"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 59,
+   "guid": "aef34d65-7877-43d2-afb1-897fc58f14f4",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "83613566-e27f-46be-b85e-1dfbc60790df"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_29",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_29"
+    }
+   }
+  },
+  {
+   "index": 60,
+   "guid": "e1de0866-16ba-4187-95be-eed64a93116d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "19f6f995-6b50-4ae2-8aba-fe82ed7472db"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_22",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_22"
+    }
+   }
+  },
+  {
+   "index": 61,
+   "guid": "4741d167-3bb1-423e-8cab-6283f3a33636",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "08232c31-c24b-4d32-b43d-6f86ecb02b78"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 62,
+   "guid": "a3823869-6674-4d47-b848-fbecae499b4c",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "b461f5a5-5724-4a08-a1b2-d4aabea992ed"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_30",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_30"
+    }
+   }
+  },
+  {
+   "index": 63,
+   "guid": "460f066a-7999-4ae2-aad1-68982c8eb414",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2f812d4e-41f6-4fe6-ad07-b0b32106c014"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 64,
+   "guid": "ae4ac16d-fa62-4d26-bbd2-c3f2df7ac466",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "5f8eeb7f-3cfd-402d-925e-c6ce748ed788"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_28",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_28"
+    }
+   }
+  },
+  {
+   "index": 65,
+   "guid": "c7e14f6e-bb3c-4cef-afac-e1677bebcc27",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "090c705b-5acb-44dd-a885-c871991b558e"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 66,
+   "guid": "00dc5f6e-3104-47d3-8c9c-e6d3c16a8500",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c44123dc-4460-41f7-9bb2-8946539bbe27"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_05",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_05"
+    }
+   }
+  },
+  {
+   "index": 67,
+   "guid": "e3434e6f-ada8-46d0-96b9-656618560de9",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "bce2b32b-88cb-45a5-85ba-abc75473811b"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_09",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_09"
+    }
+   }
+  },
+  {
+   "index": 68,
+   "guid": "c44e626f-ccbf-495a-b8b8-2880559cd91e",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "1205beed-f50c-4c41-87ec-bb9464e1c02c"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 69,
+   "guid": "9382916f-4680-4a4f-98bb-1bec0aaa96c8",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "446a7933-cec1-4dfb-978e-1ea3d3ec4b77"
+     ]
+    },
+    "TransitionPoint": "Dungeon 05",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_005_Int"
+    }
+   }
+  },
+  {
+   "index": 70,
+   "guid": "d619bd73-8e5e-484e-965e-af7f32e767a3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "d7eaf1d0-0c01-40e0-95ab-8c7eb718657a"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_26",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_26"
+    }
+   }
+  },
+  {
+   "index": 71,
+   "guid": "f6681b79-1dfa-4e30-9a95-e8a1d613c6ee",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "88f334f0-8c02-4c65-9489-5def69c10a0e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_30",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_30"
+    }
+   }
+  },
+  {
+   "index": 72,
+   "guid": "f377c079-3a69-4546-a3d1-beeac9512df7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "05e5f606-401b-4598-b08d-a72d9be115ac"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_11",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_11"
+    }
+   }
+  },
+  {
+   "index": 73,
+   "guid": "73bc397d-6b66-4edb-99ee-e070df428f93",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "fac3e4a2-0a8d-4bd0-ab28-8ee3c09e1360"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_09",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_09"
+    }
+   }
+  },
+  {
+   "index": 74,
+   "guid": "255db37f-8066-4a00-9795-7a00273663da",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2e051bad-bc2a-412a-a62d-3baf0a02b152"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 75,
+   "guid": "193e3180-41fb-41b3-885c-ba5ea378d485",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "584b5f6d-196a-48e3-b230-c674b741c137"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_15",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_15"
+    }
+   }
+  },
+  {
+   "index": 76,
+   "guid": "7247d380-15a9-44bf-a8c6-151f21213207",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "eef1e1f2-2dc0-433d-a553-52a89fafd376"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 77,
+   "guid": "ce186282-b663-497d-a969-d5e6d112cab7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c2f90c00-72b6-4617-8b15-f5a9f9e414d1"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_10",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_10"
+    }
+   }
+  },
+  {
+   "index": 78,
+   "guid": "4421ab84-a557-47cd-86b8-c23aba765071",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "578a20b5-a15c-4323-8201-46b4ac131ef3"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_07",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_07"
+    }
+   }
+  },
+  {
+   "index": 79,
+   "guid": "2f57cf86-9aa2-47e9-bae4-905b28450cd6",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "dd5991c0-76a9-4c9c-aeea-462f592ab87d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_06",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_06"
+    }
+   }
+  },
+  {
+   "index": 80,
+   "guid": "a070dd86-1cf8-4f5d-9e68-ce9494d364c9",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "1df10ce0-71a6-4a34-86db-95ba98fdde75"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_20",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_20"
+    }
+   }
+  },
+  {
+   "index": 81,
+   "guid": "cee6e187-4c3f-49d7-8432-148fba54050a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "68ff6a3f-7bfa-4c62-9f36-1ce1ff1ab101"
+     ]
+    },
+    "TransitionPoint": "Strider_FP_3",
+    "TransitionPointName": {
+     "TransitionName": "Strider_FP_3"
+    }
+   }
+  },
+  {
+   "index": 82,
+   "guid": "e12ff687-a38e-48c1-83cf-f83187c0dd36",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "56401ee4-ce03-44c6-bdba-e852a54e4e50"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_12",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_12"
+    }
+   }
+  },
+  {
+   "index": 83,
+   "guid": "d574f288-7a93-463d-963c-787945057f77",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c8089e26-b6bd-460c-86f1-e697091d4b8c"
+     ]
+    },
+    "TransitionPoint": "Ground_Quest_06",
+    "TransitionPointName": {
+     "TransitionName": "Ground_Quest_06"
+    }
+   }
+  },
+  {
+   "index": 84,
+   "guid": "25a54089-0376-4659-8f30-89315b5e6c63",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "a0a7ad39-65e0-4c25-a980-bd020952776c"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 85,
+   "guid": "c5399f89-b1dd-46e9-82de-f13a32c4839b",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "10cbcf87-abd0-4f26-852f-51cff494aaf0"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 86,
+   "guid": "14a2418d-e377-4c60-95e6-b8a103816bc1",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "dc8d65aa-a7e2-42a3-b4de-e40c32d828e7"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_30",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_30"
+    }
+   }
+  },
+  {
+   "index": 87,
+   "guid": "5a97428d-4202-4b27-94f4-ea3d81eb5b1c",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "07ab6afd-0378-44b8-a1ba-cf046692f239"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_23",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_23"
+    }
+   }
+  },
+  {
+   "index": 88,
+   "guid": "de70da8e-7d0e-4a5e-b4b5-9abf4adff832",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e048e1b5-b347-4dd8-9a72-4eb2d2938d3d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 89,
+   "guid": "c7098090-5544-4743-adc7-fd00412b8962",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c8fe3f3d-2a1a-46c6-bb8c-66fa1d858849"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 90,
+   "guid": "eaf03692-0fa2-4766-bc92-6ea2f7ead0b0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "246b66b9-9c39-46bd-994d-df25e6c85615"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_01",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_01"
+    }
+   }
+  },
+  {
+   "index": 91,
+   "guid": "e93d6a92-a892-4aba-9c9b-cddb0380b80a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "83fe9ab7-43be-4ed1-ab52-c9668e072e6d"
+     ]
+    },
+    "TransitionPoint": "SafePoint_Arena_01_04_08",
+    "TransitionPointName": {
+     "TransitionName": "Safepoint_Arena_01_04_08"
+    }
+   }
+  },
+  {
+   "index": 92,
+   "guid": "e9382b95-5efc-43f6-889a-58b8e2246234",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "9258eb14-6a8a-44b0-8038-b7064f37e65e"
+     ]
+    },
+    "TransitionPoint": "Ground_Quest_23",
+    "TransitionPointName": {
+     "TransitionName": "Ground_Quest_23"
+    }
+   }
+  },
+  {
+   "index": 93,
+   "guid": "13d4f395-bcba-4277-84fb-f5b5e77918a2",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "5db62769-7090-435e-b548-ed97df861be2"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 94,
+   "guid": "2112f19a-ccb9-43d1-817e-7ff27eee3343",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "02a4c300-f44e-47ac-9f9e-7ec28a05efea"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_26",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_26"
+    }
+   }
+  },
+  {
+   "index": 95,
+   "guid": "5a968a9f-b2cc-4c9e-829d-a7a357967fff",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c8109288-cc3a-4b95-ae41-ea7755eec707"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 96,
+   "guid": "35ff7ea3-3afa-49fc-97fc-cd3ee9c5a77c",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "69977d64-72ff-4a1b-bfda-fdc738d4d965"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_06",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_06"
+    }
+   }
+  },
+  {
+   "index": 97,
+   "guid": "b40c1fa4-dca5-4bb8-839d-412c72a48c05",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "3d1817bc-101c-442c-9f73-86d79aa48e62"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_29",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_29"
+    }
+   }
+  },
+  {
+   "index": 98,
+   "guid": "c067d0a6-292a-4612-b680-780a4ee3ef98",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "83fe9ab7-43be-4ed1-ab52-c9668e072e6d"
+     ]
+    },
+    "TransitionPoint": "CP_FT1_INTRO_030_QL",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 99,
+   "guid": "5c7c58a8-c192-471c-9115-f919c2e7a1e3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "edb7b13c-6a3b-4cad-8c50-b4ae5035e50c"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_05",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_05"
+    }
+   }
+  },
+  {
+   "index": 100,
+   "guid": "b39fffaa-2568-4eb9-bf72-6e21ab678a05",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "8ffc9083-b412-428a-a659-846b4bdd4c5e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_20",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_20"
+    }
+   }
+  },
+  {
+   "index": 101,
+   "guid": "4f445aab-7290-49ff-9d97-e5af752487f8",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "5e528e9c-2b8c-4bf3-a02a-c30e1e6cbbc4"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 102,
+   "guid": "170e8eac-5918-42db-9997-d75ba80f7d8d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "725fefee-feb8-4246-8492-15def291a33b"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_30",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_30"
+    }
+   }
+  },
+  {
+   "index": 103,
+   "guid": "16c728ae-7898-404e-9c20-ff031693d36a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "dca3751e-e0e3-4ad0-acee-a961b21e341d"
+     ]
+    },
+    "TransitionPoint": "CP_FT1_INTRO_010_QL",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_03"
+    }
+   }
+  },
+  {
+   "index": 104,
+   "guid": "060d2fb0-476d-43b6-841c-7f0cc3e474e7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "a0b8f64c-ea70-48f3-977c-9b3e38e16197"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_06",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_06"
+    }
+   }
+  },
+  {
+   "index": 105,
+   "guid": "0ee267b0-8f84-440c-a99e-4d6b24080bae",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2a9b3f87-fe1c-4ecc-9a8f-878d9131f482"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_02",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_02"
+    }
+   }
+  },
+  {
+   "index": 106,
+   "guid": "81b239b1-c061-4392-9418-3c2f8059c289",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2376580e-e2a3-400a-ad2b-aabd3d54f44e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 107,
+   "guid": "56b25ab3-9c4d-4a29-950c-d9a4b979b766",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "df6ad860-02c2-42f8-9ef3-542118d80d3d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_02",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_02"
+    }
+   }
+  },
+  {
+   "index": 108,
+   "guid": "68c96cb4-208b-4483-85e2-795cf99b9ad0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7339d43f-13d4-4e79-9d86-d470d67b3b3d"
+     ]
+    },
+    "TransitionPoint": "Cataclysm_001_Int",
+    "TransitionPointName": {
+     "TransitionName": "Cataclysm_001_Int"
+    }
+   }
+  },
+  {
+   "index": 109,
+   "guid": "5a2fcbb4-7dce-449c-b21a-73c1ed541ef3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "7526fae2-46ee-4104-8f8d-0621cfb96d53"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_25",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_25"
+    }
+   }
+  },
+  {
+   "index": 110,
+   "guid": "2f8529b5-3310-482f-944f-37bac0000991",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "577da505-503d-47fa-be65-32c76eddb1ab"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_03",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_03"
+    }
+   }
+  },
+  {
+   "index": 111,
+   "guid": "b7262fb5-45c0-4489-85c3-535dc592f135",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "84c853f3-2f51-4f6a-a80e-8f1469acbbae"
+     ]
+    },
+    "TransitionPoint": "Dungeon_003_Int",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_003_Int"
+    }
+   }
+  },
+  {
+   "index": 112,
+   "guid": "7e754ab8-dbe8-484a-9c05-3313d3b7f486",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c7c9860e-d31d-4243-8398-8fc5e87c8299"
+     ]
+    },
+    "TransitionPoint": "Dungeon_007_Int",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_007_Int"
+    }
+   }
+  },
+  {
+   "index": 113,
+   "guid": "8f1129ba-5ebf-43d9-81d4-cc97a99511c7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "69a6f5fe-7545-4ba8-b5eb-035f86a9ff76"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_19",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_19"
+    }
+   }
+  },
+  {
+   "index": 114,
+   "guid": "0fc011bf-f32d-4f3b-bf8e-f39eb744211d",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "1e93e191-ba97-44bf-93ac-503b6ca2a51f"
+     ]
+    },
+    "TransitionPoint": "tutorial_002",
+    "TransitionPointName": {
+     "TransitionName": "tutorial_002"
+    }
+   }
+  },
+  {
+   "index": 115,
+   "guid": "42b837bf-e085-4046-8de7-c6c2d060cebc",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "87e54148-9c2c-42a0-93b1-170aa884b3ae"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 116,
+   "guid": "b1f284bf-ce80-4fd6-ab00-cbd3d46185cf",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "64f5f651-9200-4ad8-9caa-335d557f0791"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 117,
+   "guid": "f342dac3-09d3-4e3f-a3e9-84a56e62ecf6",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "313d0112-74c6-482d-9059-ba67e4695f76"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 118,
+   "guid": "65226dc4-0e59-4b10-9af9-ebe051ec78e3",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e7e95d4c-9080-4559-a547-47568cc14270"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_09",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_09"
+    }
+   }
+  },
+  {
+   "index": 119,
+   "guid": "26433ec5-fbb2-4bf6-a07c-09b1598fd13b",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "8b276b9e-46aa-4dcb-a708-94ff0e6a2546"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_07",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_07"
+    }
+   }
+  },
+  {
+   "index": 120,
+   "guid": "537e31c7-0a08-41d8-9410-5024e4b937f4",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "fcee1d9d-9b30-42ef-9ecf-e2368ebafad4"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 121,
+   "guid": "ca601ac9-cd20-4798-b0f8-6ffdfb6509fa",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "8322ec69-2b43-4502-95d3-bfe9de98ca70"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 122,
+   "guid": "3cda77cb-8918-4c02-ba22-da8e75552401",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "bece4245-411b-462a-a146-f33610ecafa7"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_24",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_24"
+    }
+   }
+  },
+  {
+   "index": 123,
+   "guid": "8746ffcb-3767-409c-9269-37ccb7b7b49b",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "24fe897a-65aa-441e-bcde-70e946a8d82b"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_04",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_04"
+    }
+   }
+  },
+  {
+   "index": 124,
+   "guid": "3d27f8cc-3a91-48b0-a426-70f01ff5ca55",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "d552deb8-f43b-4c02-b6fb-11d118af662d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_14",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_14"
+    }
+   }
+  },
+  {
+   "index": 125,
+   "guid": "5fe843d1-47a6-4523-aadc-1fe4870c72aa",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "f848c055-e59f-4407-8179-f419a6b6d5f0"
+     ]
+    },
+    "TransitionPoint": "Fort_Ext",
+    "TransitionPointName": {
+     "TransitionName": "Fort_Ext"
+    }
+   }
+  },
+  {
+   "index": 126,
+   "guid": "4ec346d3-cb81-4c6c-a586-ff038b278028",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "edb7b13c-6a3b-4cad-8c50-b4ae5035e50c"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_05",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_05"
+    }
+   }
+  },
+  {
+   "index": 127,
+   "guid": "a56674d6-b156-4914-8379-77c343229320",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "dca3751e-e0e3-4ad0-acee-a961b21e341d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 128,
+   "guid": "674d8fd9-36c1-4c87-9bfd-b19d87c2dba1",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "87e54148-9c2c-42a0-93b1-170aa884b3ae"
+     ]
+    },
+    "TransitionPoint": "SocialHub_Quest",
+    "TransitionPointName": {
+     "TransitionName": "LaunchBay_Int"
+    }
+   }
+  },
+  {
+   "index": 129,
+   "guid": "337310da-3482-43fc-9efb-146347fd91c7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "48284323-44f0-4a23-a335-7a2a38c871ac"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_11",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_11"
+    }
+   }
+  },
+  {
+   "index": 130,
+   "guid": "b7aa69da-8006-432f-9d23-8db0d0bac458",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "c8089e26-b6bd-460c-86f1-e697091d4b8c"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_06",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_06"
+    }
+   }
+  },
+  {
+   "index": 131,
+   "guid": "60207eda-df52-41b4-800e-44cbb3b68441",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "83fe9ab7-43be-4ed1-ab52-c9668e072e6d"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_28",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_28"
+    }
+   }
+  },
+  {
+   "index": 132,
+   "guid": "df1e11dd-c40e-426f-831d-09208729ff38",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "9191c598-8d71-471c-80dc-0e4555d169fb"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_23",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_23"
+    }
+   }
+  },
+  {
+   "index": 133,
+   "guid": "cf7603de-bf92-451c-b92b-bbdeeecfdef0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "4021897e-67ed-4f9d-8390-8d93640c2427"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_26",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_26"
+    }
+   }
+  },
+  {
+   "index": 134,
+   "guid": "6a8140e1-8f18-4c6b-a29a-0405c7c0ed87",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "0cf9c8bd-89a4-46d7-88f2-d964329938b0"
+     ]
+    },
+    "TransitionPoint": "Ground_Quest_27",
+    "TransitionPointName": {
+     "TransitionName": "Ground_Quest_27"
+    }
+   }
+  },
+  {
+   "index": 135,
+   "guid": "a0e397e1-b836-4f8a-bf62-ba65d7989fa4",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "163a0108-8a15-4217-87e0-e234ef2856f9"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_03",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_03"
+    }
+   }
+  },
+  {
+   "index": 136,
+   "guid": "40caaae1-b504-4291-8260-825c196ea6ba",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "ea635ddf-541c-488d-af3c-0d7250afac5b"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_17",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_17"
+    }
+   }
+  },
+  {
+   "index": 137,
+   "guid": "5e4bb5e1-69b5-4646-a010-0ea34658001e",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "66a2ecc5-9167-46dd-a881-7a2fffa32aa4"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_19",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_19"
+    }
+   }
+  },
+  {
+   "index": 138,
+   "guid": "89dd6ae2-1e9f-4f53-bb0b-2bfd0aa65380",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "b2e7625d-4f6b-4135-9343-2d963febd371"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_18",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_18"
+    }
+   }
+  },
+  {
+   "index": 139,
+   "guid": "79b52ae3-c25f-47b2-be94-84aaf599d37a",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "2a9b3f87-fe1c-4ecc-9a8f-878d9131f482"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_03",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_03"
+    }
+   }
+  },
+  {
+   "index": 140,
+   "guid": "dcaff6e3-4479-476e-842c-3bbe36b9579c",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "ee80cc16-980b-4a7c-a5de-bfee7e0b7855"
+     ]
+    },
+    "TransitionPoint": "TutorialHeartOfRage_001",
+    "TransitionPointName": {
+     "TransitionName": "TutorialHeartOfRage_001"
+    }
+   }
+  },
+  {
+   "index": 141,
+   "guid": "bdb068e9-8816-4e07-b9ea-22c05a0465e4",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "60510dde-46e8-4c8e-a7ed-e53a330bab13"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_21",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_21"
+    }
+   }
+  },
+  {
+   "index": 142,
+   "guid": "eb3ad7e9-c134-4527-a663-44195ae75067",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e7e95d4c-9080-4559-a547-47568cc14270"
+     ]
+    },
+    "TransitionPoint": "CP_FT1_INTRO_020_QL",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_13"
+    }
+   }
+  },
+  {
+   "index": 143,
+   "guid": "41ee53eb-6131-46e2-abec-5b9774763fd0",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "d9d4ea01-15c9-45e0-a203-80ce708d0b5b"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_10",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_10"
+    }
+   }
+  },
+  {
+   "index": 144,
+   "guid": "87e035ec-7e78-4a68-89d7-7d8a6eb15059",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "f2f272d3-1928-4cbc-b245-c23703eee2ef"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_05",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_05"
+    }
+   }
+  },
+  {
+   "index": 145,
+   "guid": "715b66f0-a39b-44f6-a006-5786f899d129",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "68d70035-3176-4f93-8e4b-4880b64c9688"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_08",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_08"
+    }
+   }
+  },
+  {
+   "index": 146,
+   "guid": "f42480f0-6279-4b3a-9570-7a3554bc06df",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "5e11f441-b704-4cfc-8678-544a3dbd4590"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_25",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_25"
+    }
+   }
+  },
+  {
+   "index": 147,
+   "guid": "4b3626f6-69b7-41ca-bca3-d90760167aeb",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "50db58b0-47aa-466f-93ea-de4bdc9c4e4e"
+     ]
+    },
+    "TransitionPoint": "Fort",
+    "TransitionPointName": {
+     "TransitionName": "MES_001_CrawlStart1"
+    }
+   }
+  },
+  {
+   "index": 148,
+   "guid": "49e9aef6-b804-4136-9f4c-79591615306c",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "9258eb14-6a8a-44b0-8038-b7064f37e65e"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_23",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_23"
+    }
+   }
+  },
+  {
+   "index": 149,
+   "guid": "955ee3f6-8e35-4604-b866-fa5e4bc0ebaa",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "9a430452-5c9c-4189-b9bf-49f697cea4c2"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_15",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_15"
+    }
+   }
+  },
+  {
+   "index": 150,
+   "guid": "e3dbf5f7-ced1-4020-81bc-eef2b2766539",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "ea32c34b-77d0-4aea-aad6-5c2e8a697e37"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_31",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_31"
+    }
+   }
+  },
+  {
+   "index": 151,
+   "guid": "e6afa0f8-b5c5-4109-b9d7-54f40df4d610",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "fc2cfce1-db2a-45dc-9e8c-69ba454528b2"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_22",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_22"
+    }
+   }
+  },
+  {
+   "index": 152,
+   "guid": "6a9c5af9-c4f9-4347-9d22-e457341693eb",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "a51178ee-a2ef-4761-90ce-42e70295cd86"
+     ]
+    },
+    "TransitionPoint": "Strider_Quest_24",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_24"
+    }
+   }
+  },
+  {
+   "index": 153,
+   "guid": "8ba7e8fd-8ad2-4686-8a22-9e812bae0145",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "bece4245-411b-462a-a146-f33610ecafa7"
+     ]
+    },
+    "TransitionPoint": "VUL_Strider_Quest_23",
+    "TransitionPointName": {
+     "TransitionName": "Strider_Quest_23"
+    }
+   }
+  },
+  {
+   "index": 154,
+   "guid": "7faf63ff-ba5f-40d5-b2ec-d99bd42364a7",
+   "classe": "DylanEcoQuestMapMarkerSetting",
+   "champs": {
+    "MarkerSetting": {
+     "import": [
+      "92af30be-6a26-404b-bf08-0e18427156ff",
+      "e732f53f-fd09-4cc3-99be-0c1d0cc7719e"
+     ]
+    },
+    "TransitionPoint": "Dungeon_001_Int",
+    "TransitionPointName": {
+     "TransitionName": "Dungeon_001_Int"
+    }
+   }
+  }
+ ]
+}

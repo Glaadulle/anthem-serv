@@ -1,0 +1,15 @@
+# essai 2026-11-01 : prologue avec tous les correctifs (IA comprise), apres la navigation creee par le jeu
+comportements_serveur.py
+degats_serveur.py
+vie/vie_serveur.py
+vie/sections_serveur.py
+vie/creations.py
+vie/mort.py
+vie/sante_publiee.py
+vie/degats.py
+vie/reactions.py
+ia/cible.py
+ia/tirs.py
+ia/deplacements.py
+ia/perception.py
+suivi

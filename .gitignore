@@ -1,0 +1,9 @@
+/target
+/launcher/node_modules
+/data/certs/
+/data/logs/
+/data/captures/
+/data/crash_seh.log
+/game.conf
+/game.conf.avant
+__pycache__/

@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' 'unsafe-inline'">
+<title>Anthem Launcher</title>
+<style>
+  :root { --fond: #111418; --carte: #1b2027; --texte: #e6e9ee; --doux: #8a94a3; --accent: #f08a24; }
+  body { margin: 0; padding: 20px; background: var(--fond); color: var(--texte); font: 14px system-ui, sans-serif; }
+  [hidden] { display: none !important; }
+  h1 { margin: 0 0 16px; font-size: 20px; letter-spacing: .04em; }
+  .carte { background: var(--carte); border-radius: 8px; padding: 14px; margin-bottom: 14px; }
+  label { display: flex; align-items: center; gap: 8px; margin: 6px 0; }
+  input[type=text] { flex: 1; background: var(--fond); color: var(--texte); border: 1px solid #333b46; border-radius: 4px; padding: 6px 8px; }
+  input[type=text]:disabled { opacity: .4; }
+  .actions { display: flex; gap: 10px; margin-bottom: 10px; }
+  button { flex: 1; padding: 12px; border: 0; border-radius: 6px; font-size: 16px; font-weight: 600; cursor: pointer; }
+  #jouer { background: var(--accent); color: #111; }
+  #second { background: #2b6cb0; color: #fff; }
+  .serveur { background: #2f855a; color: #fff; }
+  .titre { font-weight: 600; margin-bottom: 8px; }
+  .doux { color: var(--doux); font-size: 12px; }
+  .dossier { display: flex; align-items: center; gap: 10px; }
+  .dossier span { flex: 1; overflow-wrap: anywhere; }
+  button.petit { flex: 0 0 auto; padding: 6px 12px; font-size: 13px; background: #333b46; color: var(--texte); }
+  .arret { background: #333b46; color: var(--texte); }
+  button:disabled { opacity: .4; cursor: default; }
+  #etat { color: var(--doux); margin: 10px 0 6px; }
+  pre { height: 190px; overflow: auto; margin: 0; background: #0b0d10; border-radius: 6px; padding: 8px; font-size: 11px; color: var(--doux); white-space: pre-wrap; }
+</style>
+</head>
+<body>
+<h1>ANTHEM</h1>
+<div class="carte" id="choix-mode">
+  <label><input type="radio" name="mode" value="local"> Local <span id="lan" class="doux"></span></label>
+  <label><input type="radio" name="mode" value="dev"> Local dev <span class="doux">(shared hub, automatic squad)</span></label>
+  <label><input type="radio" name="mode" value="serveur"> Dedicated server <input type="text" id="ip" placeholder="192.168.1.53"></label>
+</div>
+<div class="carte">
+  <div class="titre">Game folder</div>
+  <div class="dossier"><span id="dossier-jeu" class="doux"></span><button id="changer-dossier" class="petit">Change</button></div>
+</div>
+<div class="actions">
+  <button id="jouer">Play</button>
+  <button id="arreter" class="arret" disabled>Stop</button>
+</div>
+<div class="actions" id="ligne-second" hidden>
+  <button id="second" disabled>Second game</button>
+  <button id="arreter-second" class="arret" disabled>Stop the second</button>
+</div>
+<div id="etat"></div>
+<pre id="journal"></pre>
+<script src="renderer.js"></script>
+</body>
+</html>

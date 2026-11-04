@@ -1,0 +1,10 @@
+[package]
+name = "blaze"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+fire2 = { path = "../fire2" }
+tdf = { path = "../tdf" }
+tls = { path = "../tls" }
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "io-util", "fs", "time", "sync"] }

@@ -1,0 +1,6 @@
+[package]
+name = "fire2"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]

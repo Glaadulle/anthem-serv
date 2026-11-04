@@ -1,0 +1,8 @@
+[package]
+name = "redirector"
+edition.workspace = true
+version.workspace = true
+
+[dependencies]
+tokio = { version = "1", features = ["rt-multi-thread", "macros", "net", "io-util"] }
+tls = { path = "../tls" }

@@ -1,0 +1,179 @@
+"""Usage : python3 -I tools/auto_patches.py PID : applique seul, au bon moment, les correctifs qui font jouer les missions sur le serveur interne du jeu : redirection du lancement d'une mission et créateur serveur de l'entité de navigation (ai/navigation.py, dès que le code est en mémoire, avant le premier hub : sans entité NavPower serveur, les conversations scénarisées du hub s'arrêtent aussitôt), départ d'expédition sans expédition serveur (end_expedition.py : « End Freeplay / End Expedition » répond Success et transfère au point VictoryPose_InProc), points de mission en serveur interne (dès que le niveau racine est chargé, au menu de démarrage), relevé du point de lancement de chaque quête (default_point.py --quetes, data/quest_points_PID.json), puis, dès que GameStartingInfo existe, pose de tools/gdb_active_mission.gdb qui, au lancement d'une mission depuis le hub ou du prologue depuis le menu de démarrage, démarre le serveur interne sur le niveau racine au point de lancement de la quête et passe GameStartingInfo en mode Mission avec la quête demandée (le message GameStarted du serveur dédié manque) ; au premier démarrage de mission de ce jeu (état 8 dans data/active_mission_PID.txt, relu toutes les 0,2 s), détache gdb_mission_active (un seul lancement de mission par démarrage du jeu) et pose aussitôt, en trois files parallèles, créations, mort, comportements d’arme serveur et SetHealth serveur publié et vie en points (published_health.py), puis ApplyDamage natif (damage.py) et réactions aux dégâts répliqués côté client (reactions.py : animation de mort des ennemis) (après leur vérification en mémoire), les rappels serveur (impacts, vie, sections, refusés tant que le serveur ne les a pas enregistrés) et les correctifs d'IA (target.py et shots.py sans player, déplacements, perception), pendant qu'une seule lecture de la mémoire cherche le personnage serveur du player et ses copies clientes (player.py) ; écrit ensuite le player et lance le suivi de la position du player (ai/player_position.py, qui le cherche à nouveau s'il manque) et celui des boucliers ennemis et des objets destructibles (health/health_follow.py, data/logs/health_follow.log) ; ce qui échoue (serveur ou player pas encore prêts) est retenté toutes les 2 s pendant 10 min ; data/combat_patches.txt, s'il existe, restreint cette liste (un nom de script de tools/combat_patches/ par ligne, « suivi » pour le suivi de la vie, « sonde_sortie » pour remplacer gdb_mission_active par tools/gdb_exit.gdb) ; MISSION_PAIR=1 pose la redirection pair (launch_from_hub.py --pair, docs/etude-multijoueur/transport.md), identique sur l'hôte et sur le jeu qui rejoint : seul l'hôte de topologie de la partie Blaze démarre son serveur interne, donc gdb_mission_active et les correctifs de mission n'agissent que sur lui ; le hub partagé (HUB_PARTAGE, docs/etude-multijoueur/social.md) n'ajoute rien ici : le hub démarre en solo, et c'est l'ouverture par Blaze (tools/hub_partage.sh) qui le recharge en hôte pair par la redirection pair"""
+
+import os
+import re
+import subprocess
+import sys
+import time
+from concurrent.futures import ThreadPoolExecutor
+
+TOOLS = os.path.dirname(os.path.abspath(__file__))
+sys.path.insert(0, os.path.join(TOOLS, "combat_patches", "health"))
+sys.path.insert(0, os.path.join(TOOLS, "combat_patches", "ai"))
+import player
+from health_mirror import Process
+
+STARTING_INFO_POINTER = 0x144A92578
+MISSION_STARTED = "état de démarrage 8"
+COMBAT = os.path.join(TOOLS, "combat_patches")
+NAVIGATION = os.path.join("combat_patches", "ai", "navigation.py")
+MISSION_GROUPS = ((("health/creations.py", ()), ("health/death.py", ()), ("server_behaviours.py", ()), ("health/published_health.py", ()), ("health/damage.py", ()), ("health/reactions.py", ())),
+                  (("server_damage.py", ()), ("health/server_health.py", ()), ("health/server_sections.py", ())),
+                  (("ai/target.py", ("0",)), ("ai/shots.py", ()), ("ai/movements.py", ()), ("ai/perception.py", ())))
+COMBAT_PATCHES = sum(MISSION_GROUPS, ())
+HEALTH_FOLLOW_SECONDS = 4 * 3600
+COMBAT_CHOICE = os.path.join("data", "combat_patches.txt")
+HEALTH_FOLLOW, EXIT_PROBE = "suivi", "sonde_sortie"
+PEER_HOST = "MISSION_PAIR"
+CODE_RETRY_SECONDS, DATA_RETRY_SECONDS = 1, 20
+MISSION_POLL_SECONDS, MISSION_RETRY_SECONDS, MISSION_RETRY_LIMIT = 0.2, 2, 600
+
+
+def alive(pid):
+    return os.path.exists(f"/proc/{pid}")
+
+
+def run(tool, *arguments):
+    result = subprocess.run([sys.executable, "-I", os.path.join(TOOLS, tool), *arguments], capture_output=True, text=True)
+    print(f"{time.strftime('%H:%M:%S')} {tool} : {(result.stdout + result.stderr).strip()}", flush=True)
+    return result
+
+
+def until(pid, delay, attempt):
+    while alive(pid):
+        if attempt():
+            return True
+        time.sleep(delay)
+    return False
+
+
+def mission_points_found(report):
+    return sum(int(count) for count in re.findall(r": (\d+)", report)) > 0
+
+
+def starting_info_ready(pid):
+    try:
+        with open(f"/proc/{pid}/mem", "rb", buffering=0) as memory:
+            memory.seek(STARTING_INFO_POINTER)
+            return int.from_bytes(memory.read(8), "little") != 0
+    except OSError:
+        return False
+
+
+def mission_log(pid):
+    return os.path.join("data", f"active_mission_{pid}.txt")
+
+
+def wait_for_mission_start(pid, start):
+    while alive(pid):
+        if os.path.exists(mission_log(pid)):
+            with open(mission_log(pid), errors="replace") as log:
+                log.seek(start)
+                if MISSION_STARTED in log.read():
+                    return True
+        time.sleep(MISSION_POLL_SECONDS)
+    return False
+
+
+def combat_choice():
+    if not os.path.exists(COMBAT_CHOICE):
+        return [script for script, _ in COMBAT_PATCHES] + [HEALTH_FOLLOW]
+    with open(COMBAT_CHOICE) as choice:
+        return [line.strip() for line in choice if line.strip() and not line.startswith("#")]
+
+
+def apply_in_order(pid, patches):
+    for index, (script, arguments) in enumerate(patches):
+        result = subprocess.run([sys.executable, "-I", os.path.join(COMBAT, script), pid, "poser", *arguments],
+                                capture_output=True, text=True)
+        last_line = ((result.stdout + result.stderr).strip().splitlines() or [""])[-1]
+        print(f"{time.strftime('%H:%M:%S')} {script} : {last_line}", flush=True)
+        if result.returncode:
+            return patches[index:]
+    return ()
+
+
+def follow(pid, chosen):
+    if "ai/player_position.py" in chosen or HEALTH_FOLLOW in chosen:
+        with open(os.path.join("data", "logs", "player_position.log"), "a") as log:
+            subprocess.Popen([sys.executable, "-I", os.path.join(COMBAT, "ai", "player_position.py"), pid, "--duree", str(HEALTH_FOLLOW_SECONDS)],
+                             stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
+        print(f"{time.strftime('%H:%M:%S')} player_position.py : lancé", flush=True)
+    if HEALTH_FOLLOW not in chosen:
+        return
+    with open(os.path.join("data", "logs", "health_follow.log"), "a") as log:
+        subprocess.Popen([sys.executable, "-I", os.path.join(COMBAT, "health", "health_follow.py"), pid, "--duree", str(HEALTH_FOLLOW_SECONDS)],
+                         stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
+    print(f"{time.strftime('%H:%M:%S')} health_follow.py : lancé", flush=True)
+
+
+def find_player(process):
+    character, health, shield = player.find(process)
+    if character:
+        player.write_slots(process, character, health, shield)
+    print(f"{time.strftime('%H:%M:%S')} player.py : player {character:#x}, copies clientes vie {health:#x}, bouclier {shield:#x}"
+          f"{'' if character else ' (laissé à player_position.py)'}", flush=True)
+
+
+def apply_mission_patches(pid, chosen):
+    process = Process(int(pid))
+    groups = [tuple(patch for patch in group if patch[0] in chosen) for group in MISSION_GROUPS]
+    player_pending = True
+    deadline = time.monotonic() + MISSION_RETRY_LIMIT
+    with ThreadPoolExecutor(len(groups) + 1) as pool:
+        while alive(pid):
+            search = pool.submit(find_player, process) if player_pending else None
+            groups = list(pool.map(lambda group: apply_in_order(pid, group), groups))
+            if search:
+                search.result()
+                player_pending = False
+                follow(pid, chosen)
+            if not any(groups):
+                print(f"{time.strftime('%H:%M:%S')} correctifs de mission posés", flush=True)
+                return
+            if time.monotonic() >= deadline:
+                print(f"{time.strftime('%H:%M:%S')} abandon après {MISSION_RETRY_LIMIT} s : {', '.join(script for group in groups for script, _ in group)}", flush=True)
+                return
+            time.sleep(MISSION_RETRY_SECONDS)
+
+
+def launch_steps(environment):
+    redirection = ("launch_from_hub.py", "--pair") if environment.get(PEER_HOST) == "1" else ("launch_from_hub.py",)
+    return [redirection, (NAVIGATION, "poser"), ("end_expedition.py", "poser"), ("missions_inproc.py",), ("default_point.py", "--quetes")]
+
+
+def step_done(pid, step):
+    result = run(step[0], pid, *step[1:])
+    return mission_points_found(result.stdout) if step[0] == "missions_inproc.py" else result.returncode == 0
+
+
+def main():
+    pid = sys.argv[1]
+    for step in launch_steps(os.environ):
+        retry = DATA_RETRY_SECONDS if step[0] in ("missions_inproc.py", "default_point.py") else CODE_RETRY_SECONDS
+        if not until(pid, retry, lambda: step_done(pid, step)):
+            return
+    if not until(pid, CODE_RETRY_SECONDS, lambda: starting_info_ready(pid)):
+        return
+    with open(os.path.join("data", "logs", "gdb_active_mission.log"), "a") as log:
+        mission_debugger = subprocess.Popen(["gdb", "-p", pid, "-batch", "-x", os.path.join(TOOLS, "gdb_active_mission.gdb")],
+                                            stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
+    print(f"{time.strftime('%H:%M:%S')} gdb_active_mission.gdb : posé", flush=True)
+    mission_log_start = os.path.getsize(mission_log(pid)) if os.path.exists(mission_log(pid)) else 0
+    if wait_for_mission_start(pid, mission_log_start):
+        if mission_debugger.poll() is None:
+            mission_debugger.terminate()
+            mission_debugger.wait()
+            print(f"{time.strftime('%H:%M:%S')} gdb_active_mission.gdb : détaché (mission démarrée)", flush=True)
+        chosen = combat_choice()
+        print(f"{time.strftime('%H:%M:%S')} correctifs de combat choisis : {', '.join(chosen) or 'aucun'}", flush=True)
+        if EXIT_PROBE in chosen:
+            with open(os.path.join("data", "logs", "gdb_exit.log"), "a") as log:
+                subprocess.Popen(["gdb", "-p", pid, "-batch", "-x", os.path.join(TOOLS, "gdb_exit.gdb")],
+                                 stdin=subprocess.DEVNULL, stdout=log, stderr=subprocess.STDOUT, start_new_session=True)
+            print(f"{time.strftime('%H:%M:%S')} gdb_exit.gdb : posé (data/exit.txt)", flush=True)
+        apply_mission_patches(pid, chosen)
+
+
+if __name__ == "__main__":
+    main()
